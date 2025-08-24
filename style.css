@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.stButton>button {
+    background: linear-gradient(145deg, #6a59ff, #3e37b3);
+    border-radius: 12px;
+    box-shadow:
+        8px 8px 16px #3a2caa,
+        -8px -8px 16px #917cff;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    box-shadow:
+        inset 4px 4px 8px #3a2caa,
+        inset -4px -4px 8px #917cff;
+    background: linear-gradient(145deg, #3e37b3, #6a59ff);
+    cursor: pointer;
+}
+
+.stTextInput>div>input {
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 16px;
+    box-shadow:
+        8px 8px 16px #3a2caa,
+        -8px -8px 16px #917cff;
+    background: linear-gradient(145deg, #6a59ff, #3e37b3);
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.stTextInput>div>input:focus {
+    box-shadow:
+        inset 4px 4px 8px #3a2caa,
+        inset -4px -4px 8px #917cff;
+}
