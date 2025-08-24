@@ -1,5 +1,3 @@
-# Conversational_ai_bot
-
 # Conversational AI Search Bot
 
 A powerful local chatbot that combines GPT-2 language generation with semantic document search using FAISS vector embeddings. This project enables intelligent conversations about your documents without requiring external API calls.
